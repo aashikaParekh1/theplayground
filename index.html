@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Shhhhh</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="icon" href="img/logo.png" type="image/gif" />
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>  
+
+
+<!-- Carousel Start -->
+<div class="container-fluid px-0 mb-5">
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="opacity: 40%"class="w-100" src="img/bar.jpg" alt="Image">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <img class="img-fluid" src="img/title.png" alt="">
+                            <div class="col-lg-8 text-center">
+                                <br>
+                                <h2>The Ultimate Speakeasy Experience</h2>
+                                <br><br>
+                                <a class="btn" href="#firstq">Order Here</a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Menu or Create -->
+    <div id="firstq" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 id="#optionOne" class="mb-5">Choose One</h1><br>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#secq">
+                                <img class="img-fluid" src="img/menu.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" href="#secq">Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#thirdq">
+                                <img class="img-fluid" src="img/create.png" alt="">
+                            </a>                            
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayCreate()" href="#thirdq">Create your own</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu or Create -->
+<br><br>
+    <!-- Menu options -->
+    <div id="secq" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 id="#optionOne" class="mb-5">Choose One</h1><br>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/snorky.png" alt="">
+                            <div class="product-overlay">
+                                <p>
+                                    <ul>
+                                        <h3>(aka Southside Fizz)</h3>
+                                        Ice Cubes<br>¾ oz Lime juice<br>¾ oz Simple syrup<br>8 Mint leaves<br>3 Cucumber slices<br>Chilled soda water
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayCap()" href="#order">Snorky's Regular</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/rumrunner.png" alt="">
+                            <div class="product-overlay">
+                                <p>
+                                    <ul>
+                                        <h3>Ingredients</h3>Ice Cubes<br>8 Ripe grinded raspberries<br>6 fresh mint leaves<br>¾ oz Lemon juice<br> ½ oz Simple syrup<br>2 ½ oz Ginger beer 
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayRum()" href="#order">Rumrunner</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/bootlegger.png" alt="">
+                            <div class="product-overlay">
+                                <p>
+                                    <ul>
+                                        <h3>Ingredients</h3>Ice Cubes<br>½ cup Ginger ale<br> ½ cup Chilled soda water<br>1 tb Grenadine syrup<br>2 Orange slices
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayBoot()" href="#order">Bootlegger</a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <!-- Menu options -->
+<br><br>
+    <!-- Create round one -->
+    <div id="thirdq" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 id="#optionOne" class="mb-5">Choose base</h1><br>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#flavorJuiceq">
+                                <img class="img-fluid" src="img/fruit.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" href="#flavorJuiceq">Fruit Juice</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="img/soda.png" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displaySoda()" href="#flavorJuiceq">Club Soda</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#teaq">
+                                <img class="img-fluid" src="img/tea.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" href="#teaq">Tea</a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <!-- Create round one -->
+<br><br>
+    <!-- Create round two -->
+    <div id="teaq" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 id="#optionOne" class="mb-5">Choose a tea</h1><br>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#flavorq">
+                                <img class="img-fluid" src="img/black.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayBlack()" href="#flavorq">Black</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#flavorq">
+                                <img class="img-fluid" src="img/green.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayGreen()" href="#flavorq">Green</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#flavorq">
+                                <img class="img-fluid" src="img/oolong.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayOolong()" href="#flavorq">Oolong</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#flavorq">
+                                <img class="img-fluid" src="img/tea.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayHibi()" href="#flavorq">Hibiscus</a>
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+        </div>
+    </div>
+    <!-- Create round two -->
+<br><br>
+    <!-- Create round two.five -->
+    <div id="flavorq" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 id="#optionOne" class="mb-5">Choose a tea flavor</h1><br>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#garnishq">
+                                <img class="img-fluid" src="img/none.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" href="#garnishq">None</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#garnishq">
+                                <img class="img-fluid" src="img/lychee.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayLychee()" href="#garnishq">Lychee</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#garnishq">
+                                <img class="img-fluid" src="img/raspberry.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayRaspberry()" href="#garnishq">Raspberry</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#garnishq">
+                                <img class="img-fluid" src="img/lemonade.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayLemonade()" href="#garnishq">Lemonade</a>
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+        </div>
+    </div>
+    <!-- Create round two.five -->
+<br><br>
+    <!-- Create round three -->
+    <div id="flavorJuiceq" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 id="#optionOne" class="mb-5">Choose a flavor</h1><br>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#garnishq">
+                                <img class="img-fluid" src="img/lime.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayLime()" href="#garnishq">Lime</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#garnishq">
+                                <img class="img-fluid" src="img/orange.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayOrange()" href="#garnishq">Orange</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#garnishq">
+                                <img class="img-fluid" src="img/mango.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayMango()" href="#garnishq">Mango</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#garnishq">
+                                <img class="img-fluid" src="img/pom.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayPom()" href="#garnishq">Pomegranate</a>
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+        </div>
+    </div>
+    <!-- Create round three -->
+<br><br>
+    <!-- Create round garnish -->
+    <div id="garnishq" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 id="#optionOne" class="mb-5">Choose a garnish</h1><br>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#order">
+                                <img class="img-fluid" src="img/none.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" href="#order">None</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#order">
+                                <img class="img-fluid" src="img/citrus.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayCitrus()" href="#order">Citrus Wedges</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#order">
+                                <img class="img-fluid" src="img/mint.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayMint()" href="#order">Mint</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <a href="#order">
+                                <img class="img-fluid" src="img/cherry.png" alt="">
+                            </a>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block href5" onclick="displayCherry()" href="#order">Maraschino cherry</a>
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+        </div>
+    </div>
+    <!-- Create round garnish -->
+
+    <br><br><br><br><br>
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="order" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/bottom.png" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <img class="img-fluid" src="img/title2.png" alt="">                                 
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 text-center">
+                                    <h2>Your Order</h2>
+                                    <div id="capone" style="display: none;">
+                                        <br>
+                                        <p>
+                                            <ul>
+                                                <h3>Snorky's Regular (aka Southside Fizz)</h3>
+                                                Ice Cubes<br>¾ oz Lime juice<br>¾ oz Simple syrup<br>8 Mint leaves<br>3 Cucumber slices<br>Chilled soda water
+                                            </ul>
+                                        </p>
+                                    </div> 
+                                    <div id="rum" style="display: none;">
+                                        <br>
+                                        <p>
+                                            <ul>
+                                                <h3>Rumrunner</h3>Ice Cubes<br>8 Ripe grinded raspberries<br>6 fresh mint leaves<br>¾ oz Lemon juice<br> ½ oz Simple syrup<br>2 ½ oz Ginger beer
+                                            </ul>
+                                        </p>
+                                    </div>   
+                                    <div id="boot" style="display: none;">
+                                        <br>
+                                        <p>
+                                            <ul>
+                                                <h3>Bootlegger</h3>Ice Cubes<br>½ cup Ginger ale<br> ½ cup Chilled soda water<br>1 tb Grenadine syrup<br>2 Orange slices
+                                            </ul>
+                                        </p>
+                                    </div>   
+                                    <div id="create" style="display: none;">
+                                        <br>
+                                        <h4>Create Your Own:</h4>
+                                    </div> 
+                                    <div id="soda" style="display: none;">
+                                        <h5>Club Soda</h5>
+                                    </div>
+                                    <div id="black" style="display: none;">
+                                        <h5>Black Tea</h5>
+                                    </div>
+                                    <div id="green" style="display: none;">
+                                        <h5>Green Tea</h5>
+                                    </div>
+                                    <div id="oolong" style="display: none;">
+                                        <h5>Oolong Tea</h5>
+                                    </div>
+                                    <div id="hibi" style="display: none;">
+                                        <h5>Hibiscus Tea</h5>
+                                    </div>
+                                    <div id="lychee" style="display: none;">
+                                        <h5>Lychee Flavor</h5>
+                                    </div>
+                                    <div id="raspberry" style="display: none;">
+                                        <h5>Raspberry Flavor</h5>
+                                    </div>
+                                    <div id="lemonade" style="display: none;">
+                                        <h5>Lemonade</h5>
+                                    </div>
+                                    <div id="lime" style="display: none;">
+                                        <h5>Lime Flavor</h5>
+                                    </div>
+                                    <div id="orange" style="display: none;">
+                                        <h5>Orange Flavor</h5>
+                                    </div>
+                                    <div id="mango" style="display: none;">
+                                        <h5>Mango Flavor</h5>
+                                    </div>   
+                                    <div id="pom" style="display: none;">
+                                        <h5>Pomegranate Flavor</h5>
+                                    </div> 
+                                    <div id="citrus" style="display: none;">
+                                        <h5>Citrus Wedges</h5>
+                                    </div> 
+                                    <div id="mint" style="display: none;">
+                                        <h5>Mint Leaves</h5>
+                                    </div> 
+                                    <div id="cherry" style="display: none;">
+                                        <h5>Maraschino Cherry</h5>
+                                    </div>  
+                                </div>    
+
+                                <div class="col-md-6 text-center">
+                                    <h1 style="margin-top:50px; margin-right: 40px; margin-left:40px;">Don't forget to collect your recipet and listen for your number to be called at the bar</h1>
+                                    <br><br> 
+                                    <a class="btn" href="#firstq">Start Over</a> 
+                                    <a class="btn" onclick="displayConfirm()">Confirm Order</a> 
+                                    <div id="confirm" style="display: none;">
+                                        <br><h5>Order Submitted</h5>
+                                    </div>
+                                </div>  
+                            </div>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
